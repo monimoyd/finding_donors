@@ -2,6 +2,12 @@
 # Supervised Learning
 ## Project: Finding Donors for CharityML
 
+### Description of project
+
+
+In this project, I applied supervised learning techniques and analytical mind on data collected for the U.S. census to help CharityML (a fictitious charity organization) identify people most likely to donate to their cause. I first explored the data to learn how the census data is recorded. Next, I applied a series of transformations and preprocessing techniques to manipulate the data into a workable format. I then evaluated three supervised learning algorithms (Decision Tree, Logistic Regression, SVM), and found that Decision Tree algorithm is best suited for the solution. Afterwards, I optimized the Decision Tree model and present it as solution to CharityML. I also explored the chosen model and its predictions under the hood, to see just how well it's performing for the given data. I also explored which all features are imporant to consider using ExtraTreeClassifier and chosen five most features and trained and calculated performance
+
+
 ### Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
@@ -13,11 +19,11 @@ This project requires **Python 2.7** and the following Python libraries installe
 
 You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+I recommend you to install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
 
 ### Code
 
-Template code is provided in the `finding_donors.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `census.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+Main code is in `finding_donors.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file which has python functions for rendering output. Additionally, `census.csv` dataset file has US census data. Additiionally report.html file contains a snapshot of the main code in the jupyter notebook with all code cells executed.
 
 ### Run
 
